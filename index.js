@@ -11,6 +11,11 @@ $("#submit-btn").on("click", (evt) => {
   const url = `https://www.omdbapi.com/?&apikey=5a67b678&s=${searchQuery}&type="movie"`
   movieRequest(url);
   $("#movie-search")[0].reset();
+  const welcomeMessage = document.getElementById('welcome')
+  const results = document.getElementById('active-search')
+  welcomeMessage.style.display = "none"
+  results.style.display = "block"
+
 });
 
 // returns user input split into a list
