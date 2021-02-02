@@ -75,7 +75,7 @@ ul {
     text-align: left;
     margin: 20px
 }
- #active-search {
+ .active-search {
     display: none
  }
 
