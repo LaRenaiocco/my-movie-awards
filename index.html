@@ -43,17 +43,19 @@
         the OMDB API.</p>
         <p>Find your 5 favorite movies and nominate them for the Rosie's.</p>
       </div>
-      <div  class="row">
-        <div class="col-8 active-search">
-          <h5 id="result-heading">Search results:</h5>
-          <div id="results">
+      <section id="active-search">
+        <div  class="row">
+          <div class="col-8">
+            <h5 id="result-heading">Search results:</h5>
+            <div id="results">
+            </div>
+          </div>
+          <div class="col-4">
+            <h5 id="nominee-heading">Nominees:</h5>
+            <ul id="nominations"></ul>
           </div>
         </div>
-        <div class="col-4 active-search">
-          <h5 id="nominee-heading">Nominees:</h5>
-          <ul id="nominations"></ul>
-        </div>
-      </div>
+      </section>
       <div class="modal fade" id="finishedModal" tabindex="-1" aria-labelledby="finishedModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">

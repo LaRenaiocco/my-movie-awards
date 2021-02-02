@@ -12,7 +12,7 @@ $("#submit-btn").on("click", (evt) => {
   movieRequest(url);
   $("#movie-search")[0].reset();
   const welcomeMessage = document.getElementById('welcome')
-  const results = document.getElementsByClassName('active-search')
+  const results = document.getElementById('active-search')
   welcomeMessage.style.display = "none"
   results.style.display = "block"
 
